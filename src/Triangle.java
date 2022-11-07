@@ -20,8 +20,10 @@ public class Triangle implements Shape {
             if (num1<=0) {
                 good = false;
             } 
+        } else {
+            good = false;
         }
-        return false;
+        return good;
     }
     
 }
