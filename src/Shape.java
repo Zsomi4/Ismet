@@ -1,4 +1,4 @@
 public interface Shape {
     public void calcArea();
-    public boolean isGoodInput();
+    public boolean isGoodInput(String input);
 }
