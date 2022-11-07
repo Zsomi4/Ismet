@@ -6,7 +6,7 @@ public class Triangle implements Shape {
 
     @Override
     public void calcArea() {
-        this.area = this.area * this.height / 2;
+        this.area = this.base * this.height / 2;
         
     }
 
